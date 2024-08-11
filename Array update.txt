@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int arr[5] = {1,2,3,4,5};
+int s,i;
+cout << "Enter the index :" <<endl;
+cin >> i;
+cout<< "Enter the value which we want to replace :";
+cout << endl;
+cin >> s;
+arr[i] = s;
+for(i=0; i<5; i++)
+{
+cout<<arr[i] << " ";
+}
+cout << endl;
+return 0; }
